@@ -8,7 +8,6 @@ const Nodemailer = require('nodemailer');
  v8.0.0 if you want to use async..await with Nodemailer.)*/
 
  // Create Transport //
-
  const Transporter = Nodemailer.createTransport({
  	service: 'gmail',		                // using gmail as transport service
  	auth: {
@@ -20,10 +19,11 @@ const Nodemailer = require('nodemailer');
  //  configuration object where we will be configuring our email details.
 
  const mailOption = {
- 	from: 'pratik@iiitkalyani.ac.in',            // sender email
- 	to: 'pkraja121dss@gmail.com',              // list of receiver email
- 	subject: "Sending email via Nodemailer",   // subject of email
- 	text: 'Hi'                                 // body of email
+ 	from: 'pratik@iiitkalyani.ac.in',                                  // sender email
+ 	to: 'pkraja121dss@gmail.com, pkraja153dss@gmail.com',              // list of receiver email(reflect in BCC)
+ 	subject: "Sending email via Nodemailer",                           // subject of email
+ 	text: 'Hi',                                                        // body of email
+ 	html: '<h1>Welcome</h1><p>That was easy!</p>'                      // send html
  }
 
 /* Deliver the message object using the

@@ -12,7 +12,7 @@ const Nodemailer = require('nodemailer');
  	service: 'gmail',		                // using gmail as transport service
  	auth: {
  		user: 'pratik@iiitkalyani.ac.in',   // specifying email ans password to login
- 		pass: 'pk121raja@123'		// and send mail
+ 		pass: 'XXXXXXXXXX'		// and send mail
  	}
  });
 

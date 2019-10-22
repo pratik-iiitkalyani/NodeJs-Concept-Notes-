@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-concept-notes-",
+  "version": "1.0.0",
+  "description": "Basic Concept of NodeJS",
+  "main": "send_email.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratik-iiitkalyani/NodeJs-Concept-Notes-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratik-iiitkalyani/NodeJs-Concept-Notes-/issues"
+  },
+  "homepage": "https://github.com/pratik-iiitkalyani/NodeJs-Concept-Notes-#readme",
+  "dependencies": {
+    "nodemailer": "^6.3.1",
+    "nodemon": "^1.19.4"
+  }
+}

@@ -11,7 +11,7 @@ const Nodemailer = require('nodemailer');
  const Transporter = Nodemailer.createTransport({
  	service: 'gmail',		                // using gmail as transport service
  	auth: {
- 		user: 'pratik@iiitkalyani.ac.in',   // specifying email ans password to login
+ 		user: 'spratik@iiitkalyani.ac.in',   // specifying email ans password to login
  		pass: 'XXXXXXXXXX'		// and send mail
  	}
  });

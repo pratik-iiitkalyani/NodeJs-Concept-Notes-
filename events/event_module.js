@@ -17,4 +17,4 @@ emitter.emit('messageLogged')               // messageLogged-> name of event
 
 /** note- if you register the listner after calling the emit method
 nothing would have happen Because when we call emit method this emitter
-iterate all registered listner and calls them synchronously */
+iterate all registered listner and calls them synchronously */s
